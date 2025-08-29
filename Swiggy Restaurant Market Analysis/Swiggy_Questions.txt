@@ -1,0 +1,24 @@
+Don’t Sit in SQL Swiggy Data Analyst Interview before referring to below questions asked at their interview:
+1. Calculate the year-over-year growth rate of the amount spent by each customer, using tables with purchase and product details.
+2. Find the top 5 cities with the highest number of orders in the last 30 days.
+3. Suppose you have an Orders table with columns order_id, customer_id, restaurant_id, order_date, order_amount. Calculate the average order amount per restaurant.
+4. Get the repeat customers for each restaurant ie Customers who have placed more than 1 order at the same restaurant.
+5. Find the % contribution of each restaurant to the total revenue in its city?
+6. Suppose there are multiple tables: Orders, Restaurants, Customers, DeliveryPartners. Find the average delivery time per city.
+7. Find the most frequently ordered item per city.
+8. Find the restaurants which didn’t receive any orders in the last month.
+9. Calculate the customer retention rate month-on-month, What tables would you use and how would you approach this?
+10. How would you handle slowly changing dimensions in a food delivery dataset?
+11. Identify periods when stock quantity for a product was below a certain threshold (e.g., 50 units) for more than two consecutive days.
+12. Rank employees within each store by their sales performance for a given year, assigning ranks based on sales amount.
+13. What is your approach to performance tuning in SQL? How would you optimize a slow-running query?
+14. What are common pitfalls when writing GROUP BY queries with joins?
+15. Find passengers who have taken more than 10 flights from the same airport within the last year, using flight and passenger tables
+16. Rank employees within each store by their sales performance for a given year using window functions like ROW_NUMBER or RANK
+17. Explain and use SQL window functions like LEAD, LAG, ROW_NUMBER, RANK, and DENSE_RANK, especially for time-series data and ranking scenarios
+18. Write a query to identify and remove duplicate records from a table but keep only one occurrence
+19. Questions on JOIN types (INNER JOIN vs LEFT JOIN), DDL vs DML, and the use of HAVING clause after GROUP BY, difference between WHERE and HAVING clause, RANK(), DENSE_RANK(), and ROW_NUMBER()? Give a practical example of where each is used.
+20. What are window functions? Write a query to get the 2nd highest order value per customer.
+21. What is a CTE? How is it different from a subquery? Give an example where a CTE is better.
+22. How would you handle NULL values in joins and aggregations?
+23. How do you check if a table has indexes and what type?
